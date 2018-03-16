@@ -36,7 +36,7 @@
       "tests"
     ],
     "psr-4": {
-      "Mews\\Test\\": "tests/"
+      "Tuyenlaptrinh\\Test\\": "tests/"
     }
   },
   "minimum-stability": "dev",
