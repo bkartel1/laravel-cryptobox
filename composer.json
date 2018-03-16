@@ -1,0 +1,50 @@
+{
+  "name": "tuyenlaptrinh/cryptobox",
+  "type": "package",
+  "description": "Laravel 5 Cryptobox Package",
+  "keywords": ["laravel5 Cryptobox", "laravel5 crypto payment", "Cryptobox"],
+  "homepage": "https://github.com/tuyenlaptrinh/laravel-cryptobox",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tuyen Pham",
+      "email": "tuyenlaptrinh@gmail.com",
+      "homepage": "https://github.com/tuyenlaptrinh",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "ext-gd": "*",
+    "illuminate/config": "~5.0",
+    "illuminate/filesystem": "~5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.1",
+    "mockery/mockery": "0.9.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tuyenlaptrinh\\Cryptobox\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests"
+    ],
+    "psr-4": {
+      "Mews\\Test\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Tuyenlaptrinh\\Cryptobox\\CryptoboxServiceProvider"
+      ]
+    }
+  }
+}
