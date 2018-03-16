@@ -1,5 +1,6 @@
 {
   "name": "tuyenlaptrinh/cryptobox",
+  "version": "1.0.0",
   "type": "package",
   "description": "Laravel 5 Cryptobox Package",
   "keywords": ["laravel5 Cryptobox", "laravel5 crypto payment", "Cryptobox"],
